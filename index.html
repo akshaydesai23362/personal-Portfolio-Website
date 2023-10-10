@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#strengths">Strengths</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>I'am<span><br>Akshay Desai</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_0029.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h3 class="sub-title">About Me</h3>
+                    <p style="margin-bottom: 20px;">I am Akshay Desai, currently in the final year of my MCA program at Acharya Institute of Graduate Studies. I completed my BCA degree from Bangalore University.I am deeply passionate about front end skills. iam a programmer.
+                       <br>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                            <p class="tab-links" onclick="openTab('education')">Fresher</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span></li>
+                            <li><span>CSS3</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>Figma</span></li>
+                            <li><span>Visual Basic</span></li>
+                            <li><span>Web development</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>MCA from Bengaluru City University (awaiting result)</li>
+                            <li><span>2021</span><br>BCA from Bangalore university with 69%</li>
+                            <li><span>2016</span><br>PUC in Computer Science from Bangalore with 45% </li>
+                            <li><span>2013</span><br>SSLC with 55.36%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------Strengths---------- -->
+    <div id="strengths">
+        <div class="container">
+            <h1 class="sub-title">My Strengths</h1>
+            
+            <div class="Strength-list">
+                <div>
+                    <h2>Projects</h2> 
+                    <br>
+                </div>
+                <div>     
+                    <ul class="project-list -">
+                        <li>
+                            2019 -  FGC Collage Management System Technologies used: Xampp server,. HTML, CSS, 
+javascript, PHP is used for Web Application for keeping the Records of collages data 
+in a digital format for easy access. Team Size:2 My Role: Backend Support 
+                        </li>
+                        <br>
+                        <li>
+                            2020 -  Hospital Management System Technologies used: Xampp server,. HTML, javascript, 
+PHP is used for Web Application for keeping the Records of collages data in a digital 
+format for easy access. 
+
+                            </li>
+                        <br>
+                        <li>
+                            2023 - 2Wheel(An Integrated Two-Wheel Rental System) Technologies used:.VS 
+Code,Xamppserver ,Bootstrap Framework,JQuery . HTML . PHP 2Wheel is a PHP Web 
+Applicaton used to book Bike Rentals.It is an Integrated Rental System where we 
+provide a platform to all the two wheeler rental companies to collaborate with us. 
+Team Size:2 My Role:Software Architect,Designer and Backend Coding 
+                    </ul>
+                </div>
+                
+                <div>
+                    <br>
+                    <h2>Certifications </h2>
+                    <br>
+                    <ul class="certification-list">
+                        <li>
+                             Gained programming certifications in python,Msql,SQL,RDBMS.
+                         </li>
+                        <br>
+                        <li>
+                          
+                        </li>
+                        <br>
+                        <li> 
+                        Certification in the web page Real Estate Management System
+                        </li>
+                        <br>
+                        <li>
+                          Certification of complition in Front End of HTML,CSS,JavaScript.
+                        </li>
+                        <br>
+                </ul>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h3 class="sub-title">Contact Me</h3>
+                    <p><i class="fas fa-envelope"></i> akshaydesai455@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 6360347116 </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/akshaydesai23362"><i class="fab fab fa-github"></i></a>
+                        
+                        <a href="https://www.linkedin.com/in/akshay-desai-04b456271/"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                   
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ akshaydesai455. Made with <i class="fas fa-heart"></i> by Akshay Desai </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
